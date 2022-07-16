@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:142947854803:android:ce534327c5110ac35d6726",
         "android_client_info": {
-          "package_name": "com.example.login_patron_bloc"
+          "package_name": "com.example.be"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "142947854803-842tn24hpjphr50176aalqi95bljkppm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.login_patron_bloc",
+            "package_name": "com.example.be",
             "certificate_hash": "7388fa5962b37aac0e1e3e4070a4bad6e970e417"
           }
         },
