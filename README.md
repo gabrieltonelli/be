@@ -1,16 +1,28 @@
-# be
+# Flutter simple firebase authentication with [GetX](https://pub.dev/packages/get)
 
-A new be socialnetwork project.
+Flutter Version: Stable 2.5.1
 
-## Getting Started
+- Login with Google, Facebook, email & anonymously using [Firebase Authentication](https://firebase.google.com/products/auth)
+- Simple CRUD to firestore Read & Write.
+- Upload images to firebase storage
+- Separate the app in multiple layers (presentation, business logic, data)
+- Splash Screen
+- Null Safety
 
-This project is a starting point for a Flutter application.
+# Video
 
-A few resources to get you started if this is your first Flutter project:
+<a href="https://youtu.be/VTmJBxVXUiY"> <img src="screenshots/youtube.png" width="70%"/></a>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Architecture
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="screenshots/architecture.png" width="600">
+
+# Workflow
+
+<img src="screenshots/workflow.png" width="600">
+
+# Screenshots
+
+| Login screen                                    | Intro Screen                                    | Home Screen                                     |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| <img src="screenshots/image1.png" height="520"> | <img src="screenshots/image2.png" height="520"> | <img src="screenshots/image3.png" height="520"> |

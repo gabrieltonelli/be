@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class Be_Image extends StatelessWidget {
   String path;
   double width;
@@ -7,7 +8,8 @@ class Be_Image extends StatelessWidget {
   double margLeft;
   double margRight;
 
-  Be_Image(this.path,this.width,this.height, this.margTop, this.margLeft, this.margRight);
+  Be_Image(this.path, this.width, this.height, this.margTop, this.margLeft,
+      this.margRight);
   @override
   Widget build(BuildContext context) {
     return Container(

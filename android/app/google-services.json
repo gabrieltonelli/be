@@ -1,42 +1,50 @@
 {
   "project_info": {
-    "project_number": "142947854803",
-    "project_id": "bourboncode-b84e5",
-    "storage_bucket": "bourboncode-b84e5.appspot.com"
+    "project_number": "925963774412",
+    "firebase_url": "https://beapp-223119.firebaseio.com",
+    "project_id": "beapp-223119",
+    "storage_bucket": "beapp-223119.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:142947854803:android:ce534327c5110ac35d6726",
+        "mobilesdk_app_id": "1:925963774412:android:5fe74aba3851a4a1ff1569",
         "android_client_info": {
           "package_name": "com.example.be"
         }
       },
       "oauth_client": [
         {
-          "client_id": "142947854803-842tn24hpjphr50176aalqi95bljkppm.apps.googleusercontent.com",
+          "client_id": "925963774412-8qu82snkvkhu1lasug6vvc9bqa4di1kr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.be",
-            "certificate_hash": "7388fa5962b37aac0e1e3e4070a4bad6e970e417"
+            "certificate_hash": "25f4731b3f5e3ce9ec3117904dc5135ca96d157f"
           }
         },
         {
-          "client_id": "142947854803-g0a0c86961cv56h0oqtea5hh4bp44ead.apps.googleusercontent.com",
+          "client_id": "925963774412-6tk6ompnk42hn192r3goam6gf4kgi2k0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDVs-oXvUTA3xK9RlUCPsN_vZ0xM4IfVwQ"
+          "current_key": "AIzaSyDv9GyBoJqJVPwL3YxS3K5_phPcij-LvzE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "142947854803-g0a0c86961cv56h0oqtea5hh4bp44ead.apps.googleusercontent.com",
+              "client_id": "925963774412-6tk6ompnk42hn192r3goam6gf4kgi2k0.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "925963774412-0atkp28ir1d8lgsutukkieeeih8bm8lk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.getbe.be"
+              }
             }
           ]
         }

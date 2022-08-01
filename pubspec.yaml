@@ -1,34 +1,59 @@
 name: be
-description: A new Flutter project.
+description: A new Flutter project made with GetX
 
 publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.14.4 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  equatable: ^1.2.3
-  firebase_auth: ^0.18.0+1
-  firebase_core: ^0.5.0
-  google_sign_in: ^4.5.4
-  meta: ^1.1.8
-  bloc: ^6.1.0
-  flutter_bloc: ^6.1.0
-  font_awesome_flutter: ^8.4.0
-  formz: ^0.3.0
-  google_fonts: ^1.1.0
-  pedantic: ^1.9.0
 
-  cupertino_icons: ^1.0.0
+  get: ^4.3.8
+  firebase_core: ^1.10.0
+  firebase_auth: ^3.2.0
+  firebase_storage: ^10.1.0
+  cloud_firestore: ^3.1.0
+  google_sign_in: ^5.2.1
+  flutter_facebook_auth: ^3.5.6
+
+  equatable: ^2.0.3
+  page_indicator: ^0.4.1
+
+  flutter_hooks: ^0.18.1
+  image_picker: ^0.8.4+4
+  cached_network_image: ^3.1.0+1
+
+  font_awesome_flutter: ^10.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+
+  flutter_lints: ^1.0.4
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo/icon.png"
+  #adaptive_icon_background: "assets/logo-bg.png"
+  #adaptive_icon_foreground: "assets/logo4.png"
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/
+    - assets/images/logo/
+    - assets/images/
+
+  fonts:
+    - family: FlamanteRoma
+      fonts:
+        - asset: assets/fonts/Flamante-Roma-Medium.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+        - asset: assets/fonts/Flamante-Roma-MediumItalic.ttf
+          style: italic

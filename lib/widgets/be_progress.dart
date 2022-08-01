@@ -13,16 +13,18 @@ class Be_Progress extends StatelessWidget {
 //      backgroundColor: Colors.transparent,
 //      body:
 
-      Stack(
-        children: <Widget>[
-          Be_GradientBackground(0XFFa65cce, 0XFF3827b1),
-          Container(
+        Stack(
+      children: <Widget>[
+        Be_GradientBackground([
+          Color(0xffffe680),
+          Color(0xffb63dcc),
+          Color(0xff4b2acc),
+        ]),
+        Container(
             color: Colors.transparent,
-              alignment: Alignment(0.0, 0.0),
-              height: MediaQuery.of(context).size.height * 0.6,
-              child:
-            Column(
-
+            alignment: Alignment(0.0, 0.0),
+            height: MediaQuery.of(context).size.height * 0.6,
+            child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -35,14 +37,12 @@ class Be_Progress extends StatelessWidget {
                       fontFamily: "FlamanteRoma",
                       height: 2.6,
                       decoration: TextDecoration.none,
-                    )
-                ),
-            ],
-            )
-          )
-        ],
-      )
-    //)
-    ;
+                    )),
+              ],
+            ))
+      ],
+    )
+        //)
+        ;
   }
 }
